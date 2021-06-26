@@ -1,0 +1,55 @@
+@import "../utils/index.css";
+@import "../components/status-bar.css";
+@import "../components/bottom-navbar.css";
+
+.notify {
+  width: 100%;
+}
+
+.title {
+  display: flex;
+  width: 90%;
+  margin: 13px auto;
+  margin-bottom: 18px;
+}
+
+.title__text {
+  font-weight: 700;
+  font-size: 17px;
+  margin-left: 7px;
+}
+
+.new-movie__background {
+  background-color: #424242;
+  display: flex;
+  flex-direction: column;
+}
+
+.new-movie {
+  display: flex;
+  width: 90%;
+  margin: 5px auto;
+}
+
+.new-movie__description {
+  margin-left: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.new-movie__type {
+  font-weight: 500;
+  font-size: 13px;
+}
+
+.new-movie__title {
+  font-weight: 500;
+  font-size: 13px;
+  color: #ffffff83;
+}
+.new-movie__date {
+  font-weight: 500;
+  font-size: 10px;
+  color: #ffffff48;
+}
