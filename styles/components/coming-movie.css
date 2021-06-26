@@ -1,0 +1,60 @@
+.coming-movie {
+  margin-bottom: 17px;
+}
+
+.coming-movie__img {
+  width: 100%;
+}
+
+.coming-movie__actions {
+  display: flex;
+  width: 90%;
+  justify-content: flex-end;
+  gap: 20px;
+}
+.coming-movie__btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 40px;
+  margin-top: 20px;
+}
+
+.coming-movie__text {
+  font-size: 11px;
+  font-weight: 400;
+  color: #ffffff83;
+  margin-top: 7px;
+  margin-bottom: 7px;
+}
+
+.coming-movie__content {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.coming-movie__title {
+  font-weight: 700;
+  font-size: 18px;
+  margin: 7px 0;
+}
+
+.movie-genre {
+  display: flex;
+  gap: 5px;
+  align-items: baseline;
+}
+
+.movie-genre__type {
+  font-weight: 600;
+  font-size: 11px;
+}
+
+.movie-genre__point {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: #ffffff69;
+}
